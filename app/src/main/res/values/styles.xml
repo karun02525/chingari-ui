@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Switch_style" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">#28DD8D</item>
+        <item name="android:colorControlHighlight">#23FFFF</item>
+        <item name="android:backgroundTint">#DEE3DE</item>
+        <item name="trackTint">@color/white</item>
+        <item name="colorSwitchThumbNormal">#FFFFFF</item>
+    </style>
+
+</resources>
